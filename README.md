@@ -1,11 +1,13 @@
-# Conferences & Workshops
+# FOSSASIA 2024
 
-This repository contains essential materials for workshops and conferences talks organized by RizinOrg.
+1. Please download this repository as a ZIP file by pressing the button `<> Code` > `Download ZIP`.
+2. Unzip the downloaded file
+3. Install rizin:
+	- Windows users: `download-rizin.ps1`
+	- Linux & Mac users: `install-rizin.sh`
 
-Each conference talk and workshop is categorized into a separate branch within this repository.
+4. Check if rizin works by executing `rizin -qc "clippy hello"`
 
-During each conference, the default branch on this GitHub repository will be changed to the specific one corresponding to the ongoing talk or workshop.
+Within this repository you will find all the workshop training material.
 
-## Workshops
-
-- [FOSSASIA 2024 - Auditing proprietary apps using Rizin](https://github.com/rizinorg/conferences/tree/fossasia-2024)
+We also provide an online handbook with more information at `https://book.rizin.re`.
