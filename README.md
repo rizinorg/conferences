@@ -1,4 +1,4 @@
-# FOSSASIA 2024
+# FOSSASIA 2024 - Rizin Workshop
 
 1. Please download this repository as a ZIP file by pressing the button `<> Code` > `Download ZIP`.
 2. Unzip the downloaded file
