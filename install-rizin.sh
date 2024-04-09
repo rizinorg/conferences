@@ -1,7 +1,7 @@
 #!/bin/sh
 
 install_darwin() {
-	if ! command -v brew &> /dev/null
+	if ! hash brew &> /dev/null
 	then
 		echo "Please install brew and re-run this script"
 		exit 1
