@@ -1,3 +1,5 @@
+#!/bin/sh
+
 install_darwin() {
 	if ! command -v brew &> /dev/null
 	then
@@ -8,18 +10,20 @@ install_darwin() {
 }
 
 install_linux() {
-	if ! command -v wget &> /dev/null
+	if ! hash wget &> /dev/null
 	then
-		if ! command -v curl &> /dev/null
+		if ! hash curl &> /dev/null
 		then
 			echo "Please install wget or curl and re-run this script"
 			exit 1
 		fi
-	elif ! command -v meson &> /dev/null
+	fi
+	if ! hash meson &> /dev/null
 	then
 		echo "Please install meson and re-run this script"
 		exit 1
-	elif ! command -v ninja &> /dev/null
+	fi
+	if ! hash ninja &> /dev/null
 	then
 		echo "Please install ninja (sometimes also named ninja-build) and re-run this script"
 		exit 1
